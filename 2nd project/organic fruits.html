@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Products</title>
+<style>
+    .header{
+        background: url(fruits.jpg) no-repeat center center/cover;
+        display: flex;
+        color: rgb(13, 15, 13);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 350px;
+        margin: -10px;
+        padding: 20px;
+        position: relative;
+    }
+    .header::after{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        width: 100px;
+        height: 100px;
+
+    }
+    .header h1{
+        border: solid black;
+        border-radius: 20px;
+        padding: 20px;
+        background-color:  rgb(43, 155, 43) ;
+    }
+    .main{
+    background-color:darkcyan;
+    margin: -10px;
+    border: solid black;
+}
+    .parha{
+        color: black;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .card{
+        background-color:khaki;
+        width: 300px;
+        height: 320px;
+        margin: 25px;
+        padding: 20px;
+        margin-left: 550px;
+        border-radius: 35px;
+        box-shadow:0px 3px 8px black;
+    }
+    .card:hover{
+        transform: scale(1.05);
+    }
+    .card h3{
+        text-align: center;
+        font-weight: bold;
+        color: red;
+    }
+    .card img{
+        text-align: center;
+        border-radius: 20px;
+    }
+    .card img:hover{
+        transform: scaleY(1.1);
+    }
+    .card p{
+        font-weight: bolder;
+        font-size: 15px;
+
+    }
+    .card button{
+        text-align: center;
+        background-color: chocolate;
+        border-radius: 10px;
+        padding: 10px;
+        font-weight: bold;
+        margin-left: 100px;
+    }
+    .card button:hover{
+        background-color:green;
+
+    }
+     footer{
+        background-color:black;
+        color:white;
+        padding: 1px;
+        margin: -10px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 20px;
+      }
+</style>
+
+</head>
+<body>
+    
+        <div class="main">
+ <section id="organic">
+    <div class="header">
+        <h1 >Organic Fruits</h1>
+</div>
+            <p class="parha">We should all be eating fruits and vegetables as if our lives depends on it 👇</p>
+            <div class="card">
+                <h3>Organic Apple</h3>
+                <img src="apple.jpg" alt="Organic Tomato">
+                
+                <p>Organic Apple from farm</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="card">
+                 <h3>Organic Banana</h3>
+                <img src="banana.jpg" alt="Organic Carrot">
+               
+                <p>Natural banana grown without chemicals</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="card">
+                 <h3>Organic Dragon</h3>
+                <img src="dragon.jpg" alt="Organic Potato">
+               
+                <p>Pure organic dragon from farm</p>
+                <button>Buy Now</button>
+            </div>
+             <div class="card">
+                 <h3>Organic Guava</h3>
+                <img src="guava.jpg" alt="Organic Potato">
+               
+                <p>Pure organic guava from farm</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </section>
+        <footer>
+        <p>© 2026 Fresh Vegetables Store | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
